@@ -1,0 +1,299 @@
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color: #FCE2DB;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+  
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: #FF8FB1;
+    border-bottom: 1px solid pink;
+  }
+    
+  
+   .logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+   }
+  
+   span{
+    color: #FF577F;
+   }
+  
+   nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+   }
+  
+   nav ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    text-transform: capitalize;
+   }
+  
+   nav ul li a:hover{
+    color: pink;
+    transition: 0,3s;
+   }
+  
+   .image{
+    width: 1000px;
+    height: 490px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    transform: rotatey(180deg);
+   }
+   .image img{
+    width: 70%;
+    height: 70%;
+    position: 0;
+    bottom: 15;
+    right: 10%;
+    transform: tranlateX(40%);
+    margin-top: 4pc;
+    background-color: transparent;
+   }
+  .content{
+    position: absolute;
+    top: 70%;
+    left: 9%;
+    transform: translateY(-50%);
+  }
+  h4{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 3%;
+  }
+  
+  h1{
+    color: black;
+    font-size: 30px;
+    margin: 20px 0 20px;
+  }
+  
+  h3{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .content a{
+    font-size: 20px;
+    background-color:pink;
+    color: black;
+    display: inline-block;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 13px 30px;
+    transition: 0.3s;
+    border-radius: 20px;
+  }
+  
+  .content a:hover {
+    background: transparent;
+    border: 2px solid pink;
+  }
+  
+  .about{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #FCE2DB;
+  }
+  
+  .about-me{
+    width: 1000px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .about-me img{
+    height: auto;
+    width: 280px;
+    border-radius: 20px;
+  }
+  
+  .about-text{
+    width: 550px;
+  }
+  
+  .about-text h2{
+    color: black;
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid pink;
+  }
+  
+  .about-text p{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+  }
+  
+  .button{
+    background-color:pink;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 13px 30px;
+    transition: 0.5s;
+    border-radius: 20px;
+  }
+  
+  .button:hover{
+    background-color: transparent;
+    border: 2px solid pink;
+    cursor: pointer;
+  }
+  
+  .portofolio{
+    background: #FCE2DB;
+    width: 100%;
+    padding: 100px 0;
+  }
+  
+  .title h2{
+    color: black;
+    font-size: 60px;
+    width: 100%;
+    margin-bottom: 30px auto;
+    text-align: center;
+  }
+  
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+  }
+  
+  .card{
+    height: 300px;
+    width: 280px;
+    padding: 2px 2px;
+    background: pink;
+    border-radius: 20px;
+    margin: 3px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 1px solid pink;
+  }
+  
+  .card i{
+    font-size: 30%;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: pink;
+  }
+  
+  .card h4{
+    color: black;
+    font-size: 23px;
+  margin-bottom: 15px;
+  }
+  
+  .gallery-img{
+    max-width: 90%;
+    max-height: 120px;
+    
+  }
+  
+  .gallery {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  
+  .images {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .name{
+    font-size: 15px;
+    font-style: bold;
+  }
+  
+  figure { margin: 0; }
+  figcaption { text-align: center; }
+  
+  figcaption span {
+    display: block;
+    color: black;
+    font-size: 15px;
+  }
+  
+  .contact {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #FCE2DB;
+  }
+  
+  .section-small {
+    max-width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .section-header {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  hr {
+    width: 60%;
+    border: 0.5px solid #ccc;
+  }
+  
+  table {
+    width: 100%;
+    border-spacing: 0;
+    padding-bottom: 20px;
+  }
+  
+  th {
+    color: black;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  td {
+    text-align: center;
+    padding: 15px 15px;
+  }
+  
+  .text-left { text-align: left; }
+  tr:nth-child(odd) { background-color: #f8e0c6; }
+
+  html {
+    scroll-behavior: smooth;
+  }
